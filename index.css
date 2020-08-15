@@ -1,0 +1,100 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+}
+nav {
+    height: 50px;
+    background-color: forestgreen;
+    color: white;
+  }
+  
+  /* target the class of inline-block below */
+  .inline-block{
+    display:inline-block;
+    padding:15px
+  }
+  /* target the class of .left below */
+  .left{
+    float:left;
+    background-color:lightblue;
+    width:30%;
+    text-align:center
+  }
+  /* target the class of .right below */
+  .right{
+    float:right;
+    background-color:gold;
+    width:70%;
+  }
+  
+  .card{
+    display:inline-block;
+    background-color:#C6C6C6;
+    border-radius:5px;
+    height:200px;
+    width:150px;
+    margin:35px;
+    margin-top:50px;
+  }
+
+  img {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius:20px;
+}
+
+.pet{
+    margin:30px;
+}
+
+.aboutme{
+    float:right;
+    padding-left:15px;
+    margin:30px;
+}
+
+.imagegallery{
+    margin:30px;
+}
+
+/* =Hoverbox Code
+----------------------------------------------------------------------*/
+
+.hoverbox
+{
+	cursor: default;
+	list-style: none;
+}
+
+.hoverbox a
+{
+	cursor: default;
+}
+
+.hoverbox a .preview
+{
+	display: none;
+}
+
+.hoverbox a:hover .preview
+{
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+}
+
+.hoverbox img
+{
+	background: #fff;
+	vertical-align: top;
+	width: 75px;
+	height: 75px;
+}
+
+.hoverbox li
+{
+	color: inherit;
+	display: inline;
+	position: relative;
+}
